@@ -1,0 +1,54 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+}   
+
+.first-part
+{
+    position: relative;
+    box-shadow: 0 0 5px 5px rgba(1, 3, 0, 0.418);
+}
+.first-part img
+{
+    max-width: 30rem;
+    max-height: 30rem;
+    object-fit: contain;
+    object-position: center;
+}
+.transition-class
+{
+    transition: all 1s ease-in-out;
+}
+.first-part span 
+{
+    font-size: 3.5rem;
+    color: red;
+    position: absolute;
+    cursor: pointer;
+    top: 40%;
+}
+.right-arrow
+{
+    right: 0;
+}
+.states
+{
+    display: flex;
+    gap: 7px;
+
+}
+.circle
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+
