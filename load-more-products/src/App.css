@@ -1,0 +1,80 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+  background-color: rgb(52, 126, 141);
+
+}
+.card
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid rgb(52, 141, 111);
+  padding: 10px;
+  background-color: rgb(152, 175, 180);
+  border-radius: 5px;
+  background-color: white;
+}
+.title
+{
+  text-justify: inter-word;
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+.informations
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.price 
+{
+  color: green;
+}
+.category
+{
+  color: brown;
+}
+.product-image
+{
+  width: 200px;
+  height: 200px;
+}
+.load-button
+{
+  grid-column: 1 / -1; /* Span across all columns */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.load-button button
+{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  color: rgb(52, 126, 141);
+  font-weight: bold;
+  cursor: pointer;
+}
+.no-more
+{
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
